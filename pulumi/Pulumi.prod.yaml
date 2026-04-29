@@ -1,0 +1,14 @@
+config:
+  aws:region: ap-south-2
+  mikshi-vlm-infra:account_id: "232445672444"
+  mikshi-vlm-infra:cluster_name: mikshi-vlm
+  mikshi-vlm-infra:oidc_provider: oidc.eks.ap-south-2.amazonaws.com/id/3DB0677734D3B8FAA1514FEF913F33F8
+  mikshi-vlm-infra:github_org: Mikshi-VLM
+  mikshi-vlm-infra:github_repos:
+    - svc-backend
+    - svc-auth
+    - svc-chat
+    - svc-frontend
+    - svc-vlm-processing
+    - cicd
+    - infra
