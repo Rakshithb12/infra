@@ -1,0 +1,9 @@
+{
+  "services": [
+    { "name": "svc-backend",        "deployment": "backend",        "path": "backend",            "tests": true,  "irsa": ["secrets", "s3", "msk"] },
+    { "name": "svc-auth",           "deployment": "auth",           "path": "auth",               "tests": true,  "irsa": ["secrets"] },
+    { "name": "svc-chat",           "deployment": "chat",           "path": "chat",               "tests": true,  "irsa": ["secrets"] },
+    { "name": "svc-frontend",       "deployment": "frontend",       "path": "vlm_frontend_v1.2",  "tests": false, "irsa": [] },
+    { "name": "svc-vlm-processing", "deployment": "vlm-processing", "path": "vlm-processing",     "tests": true,  "irsa": ["secrets", "s3", "msk"] }
+  ]
+}
