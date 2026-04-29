@@ -1,0 +1,6 @@
+name: mikshi-vlm-infra
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Mikshi-VLM EKS infrastructure (IAM roles, ECR, IRSA)
